@@ -1,3 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS `restaurante` DEFAULT CHARACTER SET utf8 COLLATE utf8_czech_ci ;
+USE `restaurante` ;
+
 CREATE TABLE mesas(
     id_mesa INT AUTO_INCREMENT PRIMARY KEY,
     numero_mesa INT NOT NULL, 
